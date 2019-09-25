@@ -1,5 +1,5 @@
 # FacePass
-FacePass provides a digital based solution for attendance of students in schools and  colleges using pre-established CCTV networks in classes.   FacePass works on the principles of real-time face detection and recognition over  data collected by CCTV cameras .This concept also has wide applications for various  solutions like intrusion detection, criminal tracking, restricted area authentication,  finding lost children
+FacePass provides a digital based solution for attendance of students in schools and  colleges using pre-established CCTV networks in classes. FacePass works on the principles of real-time face detection and recognition over  data collected by CCTV cameras .This concept also has wide applications for various  solutions like intrusion detection, criminal tracking, restricted area authentication,  finding lost children
 # Installing Dependencies
   1) Clone The Repo
   2) Run pip install -r requirements.txt 
@@ -13,6 +13,7 @@ FacePass provides a digital based solution for attendance of students in schools
       username/password = admin
   6) Run config_write to create .json file for configs
   7) run Main.py to start detection
+    To add new camera source add new camera in Manage Masters-> Manage Cameras
   8) To train new person add person from Manage Masters-> Manage Known Person Details and run train_data_maker.py
   9) To View results check Attendance and records section in view
  
